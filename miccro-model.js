@@ -48,7 +48,7 @@ if (program.migration) {
         if (stderr) console.log(chalk.red(stderr));
     };
 
-    exec('vice migration create_' + pluralized + '_table --create ' + pluralized, execCallback);
+    exec('miccro migration create_' + pluralized + '_table --create ' + pluralized, execCallback);
 }
 
 /*
