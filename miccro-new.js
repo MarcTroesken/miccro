@@ -21,4 +21,4 @@ let execCallback = (error, stdout, stderr) => {
         + chalk.bold.green('npm install.'));
 };
 
-exec('git clone git@github.com:MarcTroesken/workroom.git ' + program.args[0], execCallback);
+exec('git clone git@github.com:MarcTroesken/miccro-framework.git ' + program.args[0], execCallback);
