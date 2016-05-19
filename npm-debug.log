@@ -45,9 +45,9 @@
 21 silly publish   dependencies: { chalk: '^1.1.3', commander: '^2.9.0' },
 21 silly publish   readme: '# vice\nEasy command line tool for nodvice framework!\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: 'c5ee1b11ceb92ba058c0426409d042b867830242',
+21 silly publish   gitHead: 'f248160377f5e8f0a2c9e3fd70b04452a90a0b1d',
 21 silly publish   _id: 'miccro@0.1.0',
-21 silly publish   _shasum: 'd1afb761a11e5e27008474592da9eb4d71bda79d',
+21 silly publish   _shasum: '445cc8d3702ab1c7df7817747e235d6310a757f2',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name miccro
@@ -65,22 +65,22 @@
 29 silly publish uploading /Users/marctroesken/.npm/miccro/0.1.0/package.tgz
 30 verbose request uri https://registry.npmjs.org/miccro
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 19:29:15
+32 info attempt registry request try #1 at 19:30:00
 33 verbose request using bearer token for auth
-34 verbose request id 69c46b1f4e1c4313
+34 verbose request id 1e6cf073aeb7701a
 35 http request PUT https://registry.npmjs.org/miccro
 36 http 403 https://registry.npmjs.org/miccro
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '95',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Thu, 19 May 2016 17:29:17 GMT',
+37 verbose headers   date: 'Thu, 19 May 2016 17:30:03 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+37 verbose headers   'x-served-by': 'cache-fra1227-FRA',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1463678956.241077,VS0,VE1097',
+37 verbose headers   'x-timer': 'S1463679001.898033,VS0,VE1109',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /Users/marctroesken/.npm/registry.npmjs.org/miccro on PUT
 39 error publish Failed PUT 403
