@@ -21,4 +21,11 @@ let execCallback = (error, stdout, stderr) => {
         + chalk.bold.green('npm install.'));
 };
 
+let execCallback2 = (error, stdout, stderr) => {
+    if (error) console.log(chalk.red(error));
+    if (stdout) console.log(chalk.green(stdout));
+    if (stderr) console.log(chalk.red(stderr));
+};
+
 exec('git clone git@github.com:MarcTroesken/miccro-framework.git ' + program.args[0], execCallback);
+exec('rm -rf .git', execCallback2);
