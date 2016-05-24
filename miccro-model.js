@@ -20,7 +20,7 @@ let pluralized = pluralize(modelName);
  * Stub the model
  */
 let model = `
-var bookshelf = require('../config/bookshelf');
+var bookshelf = require('../config/database');
 
 var ${modelName} = bookshelf.Model.extend({
     tableName: '${pluralized}',
