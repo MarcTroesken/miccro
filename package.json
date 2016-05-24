@@ -1,6 +1,6 @@
 {
   "name": "miccro",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Easy node command line tool for miccro framework.",
   "main": "index.js",
   "scripts": {
