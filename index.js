@@ -2,7 +2,7 @@
 const program = require('commander');
 
 program
-    .version('0.1.4')
+    .version('0.1.5')
     .command('new <name>', 'Create a new miccro application.')
     .command('model <name>', 'Create a new Bookshelf model class.')
     .command('serve', 'Boot up a node server.')
