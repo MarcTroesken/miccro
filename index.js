@@ -2,7 +2,7 @@
 const program = require('commander');
 
 program
-    .version('0.1.6')
+    .version('0.1.7')
     .command('new <name>', 'Create a new miccro application.')
     .command('make:model <name>', 'Create a new Bookshelf model class.')
     .command('make:migration <name>', 'Create a named migration file.')
